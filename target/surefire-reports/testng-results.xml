@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening Amazon]]>
+    </line>
+    <line>
+      <![CDATA[Opening Ajio]]>
+    </line>
+    <line>
+      <![CDATA[Opening Flipkart]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-27T10:47:32 IST" name="Suite" finished-at="2023-08-27T10:48:05 IST" duration-ms="32231">
+    <groups>
+    </groups>
+    <test started-at="2023-08-27T10:47:32 IST" name="Test" finished-at="2023-08-27T10:48:05 IST" duration-ms="32231">
+      <class name="e_Commerce.Amazon">
+        <test-method signature="amazonTest()[pri:0, instance:e_Commerce.Amazon@1ea9f6af]" started-at="2023-08-27T10:47:32 IST" name="amazonTest" finished-at="2023-08-27T10:47:37 IST" duration-ms="4619" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Amazon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+      </class> <!-- e_Commerce.Amazon -->
+      <class name="e_Commerce.Flipkart">
+        <test-method signature="flipkartTest()[pri:0, instance:e_Commerce.Flipkart@55b7a4e0]" started-at="2023-08-27T10:47:48 IST" name="flipkartTest" finished-at="2023-08-27T10:48:05 IST" duration-ms="17044" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Flipkart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flipkartTest -->
+      </class> <!-- e_Commerce.Flipkart -->
+      <class name="e_Commerce.Ajio">
+        <test-method signature="ajioTest()[pri:0, instance:e_Commerce.Ajio@6eda5c9]" started-at="2023-08-27T10:47:37 IST" name="ajioTest" finished-at="2023-08-27T10:47:48 IST" duration-ms="10535" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Ajio]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ajioTest -->
+      </class> <!-- e_Commerce.Ajio -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
